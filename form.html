@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <title>Formulir Input Data</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        <header>
+            <div class="card">
+                <h1 class="heading">
+                    <br>
+                        <center>Form Surat Rekomendasi Kampus</center>
+                </h1>
+            </div>
+        </header>
+        <form class="form-group" method="POST" action="simpan.php">
+            <label for="mengerti">CONTOH PENGISIAN DI SETIAP FORM</label>
+            <br>
+            <label for="mengerti">Deskripsi yang Benar :</label>
+            <br>
+            <label for="mengerti">1) Salam Patriot, Gagah Berani Tangguh :</label>
+            <br>
+            <label for="mengerti">2) Pasuruan, 1 Januari 2022</label>
+            <br>
+            <br>
+            <label for="mengerti">Deskripsi yang  Salah :</label>
+            <br>
+            <label for="mengerti">1) Salam patriot, gagah berani tangguh :</label>
+            <br>
+            <label for="mengerti">2) SALAM PATRIOT, GAGAH BERANI TANGGUH</label>
+            <br>
+            <label for="mengerti">3) Pasuruan, 1 januari 2022</label>
+            <br>
+            <label for="mengerti">4) PASURUAN, 1 JANUARI 2022</label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="mengerti" value="Mengerti" required="required">
+                Mengerti
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="mengerti" value="Tidak Mengerti, Saya Harus Konsultasi Ke BAAK" required="required">
+                Tidak Mengerti, Saya Harus Konsultasi Ke BAAK
+            </label>
+            <br>
+            <br>
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="contoh@gmail.com" required="required">
+            <br>
+            <br>
+                <label for="tahun_sekarang">Masukkan Tahun Sekarang</label>
+                <input class="angka" type="number" name="tahun_sekarang" placeholder="Masukkan Tahun Sekarang" required="required">
+            <br>
+            <br>
+                <label for="nama_rekomendasi">NAMA Yang Merekomendasi</label>
+                <input type="text" name="nama_rekomendasi" placeholder="Masukkan NAMA Yang Merekomendasi" required="required">
+            <br>
+            <br>
+                <label for="jabatan">Jabatan</label>
+                <input type="text" name="jabatan" placeholder="Masukkan Jabatan" required="required">
+            <br>
+            <br>
+                <label for="nidn">Masukkan NIDN</label>
+                <input class="angka" type="number" name="nidn" placeholder="Masukkan NIDN" required="required">
+            <br>
+            <br>
+                <label for="nama">Masukkan Nama(Mahasiswa)</label>
+                <input type="text" name="nama" placeholder="Masukkan Nama(Mahasiswa)" required="required">
+            <br>
+            <br>
+                <label for="nim">Masukkan NIM</label>
+                <input type="text" name="nim" placeholder="Masukkan NIM" required="required">
+            <br>
+            <br>
+                <label for="studi">Studi</label>
+            <br>
+                <label>
+                <input type="radio" name="studi" value="Pendidikan Agama Islam" required="required">
+                Pendidikan Agama Islam
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="studi" value="Pendidikan Bahasa dan Sastra Indonesia" required="required">
+                Pendidikan Bahasa dan Sastra Indonesia
+                 </label>
+            <br>
+                <label>
+                <input type="radio" name="studi" value="Pendidikan Bahasa Inggris" required="required">
+                Pendidikan Bahasa Inggris
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="studi" value="Pendidikan Matematika" required="required">
+                Pendidikan Matematika
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="studi" value="Pendidikan Ekonomi" required="required">
+                Pendidikan Ekonomi
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="studi" value="Pendidikan Pancasila dan Kewarganegaraan" required="required">
+                Pendidikan Pancasila dan Kewarganegaraan
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="studi" value="Ilmu Komputer" required="required">
+                Ilmu Komputer
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="studi" value="Teknologi Pangan" required="required">
+                Teknologi Pangan
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="studi" value="Teknik Industri" required="required">
+                Teknik Industri
+                </label>
+            <br>
+            <br>
+                <label for="fakultas">Fakultas</label>
+            <br>
+                <label>
+                <input type="radio" name="fakultas" value="Pedagogi dan Psikologi" required="required">
+                Pedagogi dan Psikologi
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="fakultas" value="Teknologi dan Sains" required="required">
+                Teknologi dan Sains
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="fakultas" value="Agama islam" required="required">
+                Agama islam
+                </label>
+            <br>
+            <br>
+                <label for="semester">Semester</label>
+            <br>
+                <label>
+                <input type="radio" name="semester" value="I(Satu)" required="required">
+                I(Satu)
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="semester" value="II(Dua)" required="required">
+                II(Dua)
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="semester" value="III(Tiga)" required="required">
+                III(Tiga)
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="semester" value="IV(Empat)" required="required">
+                IV(Empat)
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="semester" value="V(Lima)" required="required">
+                V(Lima)
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="semester" value="VI(Enam)" required="required">
+                VI(Enam)
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="semester" value="VII(Tujuh)" required="required">
+                VII(Tujuh)
+                </label>
+            <br>
+                <label>
+                <input type="radio" name="semester" value="VIII(Delapan)" required="required">
+                VIII(Delapan)
+                </label>
+            <br>
+            <br>
+                <label for="ipk">Masukkan IPK</label>
+                <input type="text" name="ipk" placeholder="Masukkan IPK" required="required">
+            <br>
+            <br>
+                <label for="menjadi">UNTUK MENJADI ? (Ditulis secara lengkap dan benar)</label>
+                <input type="text" name="menjadi" placeholder="UNTUK MENJADI ? (Ditulis secara lengkap dan benar)" required="required">
+            <br>
+            <br>
+                <label for="tahun_akademik">TAHUN AKADEMIK (Contoh : 2021-2022)</label>
+                <input type="text" name="tahun_akademik" placeholder="Masukkan TAHUN AKADEMIK (Contoh : 2021-2022)" required="required">
+            <br>
+            <br>
+            <a href="index.php" class="logout">Kembali Halaman Utama</a>
+                <input type="submit" value="Selesai" class="button">
+            <br>
+        </form>
+        </div>
+    </body>
+</html>

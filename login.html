@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+    </head>
+    <body class="masuk">
+        <style>
+            .login {
+    background-color: #ffc0cb; /* Warna latar belakang */
+    justify-content: center; /* Pusatkan elemen secara horizontal */
+}
+
+.login-box {
+    background-repeat: no-repeat;
+	background-size: cover;
+	width: 300px; /* Lebar kotak Login*/
+	margin: 200px auto; /* Posisi kotak login di tengah halaman*/
+    background-color: #fff; /* Warna latar belakang kotak login */
+    border: 1px solid #ccc; /* Garis tepi kotak login */
+	box-shadow: 0px 0px 10px #000000; /* SHadow bayangan table*/
+    border-radius: 5px; /* Sudut melengkung kotak login */
+    padding: 20px; /* Ruang dalam kotak login*/
+}
+
+body { /*ini adalah baground */
+    font-family: Arial, sans-serif;
+    background-size: cover;
+	background: linear-gradient(to bottom, #A0BFE0, #4A55A2);
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+body.masuk {
+    background-color: #d82e94;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
+    color: #333;
+  }
+
+  button[type="submit"] {
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  
+        </style>
+    <div>
+        <form class="login-box" method="POST"action="beranda.html">
+            <h1><center>Login</center></h1>
+            <label for="username">Username:</label>
+            <input type="text" name="username" placeholder="Masukkan Username" required="required">
+            <br>
+            <br>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" placeholder="Masukkan Password" required="required">
+			<button type="submit" name="submit">Submit</button>
+		</form>
+	</div>
+    </body>
+</html>

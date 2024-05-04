@@ -1,0 +1,210 @@
+/*ini adalah awal dari tampilan official table*/
+body{ /*ini adalah halaman semua*/
+  background-image: linear-gradient(to bottom, #4A55A2, #A0BFE0);
+}
+  .surat { /*ini adalah desain official*/
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  .official { /*ini adalah desain persegi official text*/
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin: 3 auto;
+    padding: 20px;
+  }
+  
+  .card { /*ini adalah desain persegi form text*/
+    background-color: #0400ff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ini adalah awal dari tombol input data */
+  .form {
+    position: absolute;
+    top: 49%;
+    left: 0%;
+    background-color: #33ff44;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form:hover {
+    background-color: #0a6c28;
+  }
+  /* ini adalah akhir dari tombol input data */
+
+  table { /*ini adalah desain table*/
+    position: absolute;
+    top: 54%;
+    left: 0%;
+    background-color: pink;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+  }
+  
+  th { /*ini adalah table text judul*/
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+  }
+
+  td { /*ini desain dari hasil input data*/
+    background-color: lavender;
+    color: black;
+    padding: 5px;
+  }
+
+  button[type="logout"][name="logout"] { /*ini adalah awal dari tombol logout*/
+    position: absolute;
+    top: 0%;
+    left:92%;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+  }
+  
+  button[type="logout"][name="logout"]:hover { /*ini adalah akhir dari tombol logout*/
+    background-color: darkred;
+  }
+  /*ini adalah awal buat tombol kembali ke beranda*/
+.back-button {
+  position: absolute;
+  top: 49%;
+  left: 8%;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #336699;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #245588;
+}
+
+  .form-group .button:hover {
+    background-color: #128f1f;
+  }
+  
+  .form-group .logout {
+    background-color: #ff3333;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-group .logout:hover {
+    background-color: #8f1212;
+  }
+   /*ini adalah akhir buat tombol*/
+
+   .btn-warning {
+    background-color: #f0ad4e;
+    }
+    .btn-warning:hover {
+    background-color: #9f610a;
+    }
+    
+    .btn-danger {
+    background-color: #d9534f;
+    }
+  /*ini adalah akhir dari tampilan official table*/
+
+  
+  /* ini adalah awal dari form */
+  .container { /*ini adalah desain ukuran table form */
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: lightblue;
+  }
+  .form-container {  /*ini adalah desain text form*/
+    width: 50%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .heading { /*ini adalah desain form*/
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .form-group { /* ini adalah desain form*/
+    font-size: 18px;
+    background-image: linear-gradient(to bottom, #ffffff, #9ebbe8);
+	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  .angka{ /*ini adalah desain inputan angka*/
+    font-size: 17px;
+    padding: 8px 8px;
+    width: 100%;
+  }
+
+  /*ini adalah awal desain buat mengatur label*/
+  .form-group label { 
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .form-group textarea { 
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    /*ini adalah akhir desain buat mengatur label*/
+    
+    /*ini adalah awal buat tombol*/
+  .form-group .button {
+    background-color: #33ff5c;
+    color: #000000;
+    padding: 11px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   /*ini adalah akhir buat tombol kembali ke beranda*/
